@@ -1,0 +1,8 @@
+
+services:
+  cosbydb:
+    container_name: cosbydb
+    image: cosbydb:0.0.1
+    build:
+      context: ./server
+      dockerfile: Dockerfile
