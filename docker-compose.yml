@@ -6,3 +6,5 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
+    ports:
+      - 9054:9054
